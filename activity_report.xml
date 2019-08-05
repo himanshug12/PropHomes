@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="@drawable/keys"
+    tools:context="com.example.apple.prop.Report">
+    <TextView
+        android:layout_gravity="center"
+        android:textColor="#FF0000"
+        android:layout_marginTop="30dp"
+        android:textSize="21sp"
+        android:text=" Report an error"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/edt"
+        android:padding="10dp"
+        android:textColorHint="#000000"
+        android:hint="Problem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    <Button
+        android:layout_marginLeft="30dp"
+        android:id="@+id/back"
+        android:layout_gravity="end"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/buttonshape"
+        android:text="back"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/send"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="30dp"
+            android:layout_toRightOf="@+id/back"
+            android:background="@drawable/buttonshape"
+            android:text="send" />
+    </RelativeLayout>
+
+    <ProgressBar
+        android:id="@+id/progress_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_gravity="center_horizontal"
+        android:minHeight="50dp"
+        android:minWidth="50dp" />
+
+</LinearLayout>

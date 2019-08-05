@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="com.example.apple.prop.Vendor_pg_details">
+
+    <TextView
+        android:paddingTop="10dp"
+        android:textColor="@color/colorPrimary"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:text="Fill the details"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:padding="10dp"
+                android:id="@+id/image_of_pg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:padding="4dp"
+                android:textSize="15dp"
+                android:layout_marginTop="20dp"
+                android:background="#D3D3D3"
+                android:text=" NAME OF PG"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <EditText
+
+                android:id="@+id/name_of_pg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:padding="4dp"
+                android:textSize="15dp"
+                android:background="#D3D3D3"
+                android:text=" AREA"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <EditText
+                android:id="@+id/area_of_pg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:padding="4dp"
+                android:textSize="15dp"
+                android:background="#D3D3D3"
+                android:text=" LOCATION"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <EditText
+                android:id="@+id/loaction_of_pg"
+                android:drawableEnd="@drawable/icon"
+                android:drawableRight="@drawable/icon"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:padding="4dp"
+                android:textSize="15dp"
+                android:background="#D3D3D3"
+                android:text=" NEARBY AREAS"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <EditText
+                android:id="@+id/nearby_of_pg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:padding="4dp"
+                android:textSize="15dp"
+                android:background="#D3D3D3"
+                android:text="  SHARING"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <EditText
+                android:id="@+id/sharing_of_pg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:padding="4dp"
+                android:textSize="15dp"
+                android:background="#D3D3D3"
+                android:text="  PRICE"
+                android:inputType="number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <EditText
+                android:id="@+id/price_of_pg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+
+            <TextView
+                android:padding="4dp"
+                android:textSize="15dp"
+                android:background="#D3D3D3"
+                android:text=" FACILITIES"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <EditText
+                android:id="@+id/facilities_of_pg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:padding="4dp"
+                android:textSize="15dp"
+                android:background="#D3D3D3"
+                android:text=" ATTACHED BATHROOM "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <RadioGroup
+                android:layout_margin="10dp"
+                android:id="@+id/radioGroup3"
+                android:layout_marginLeft="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <RadioButton
+                    android:id="@+id/YES"
+                    android:layout_marginLeft="20dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" YES "
+                    android:textSize="18sp"/>
+
+                <RadioButton
+                    android:layout_marginLeft="65dp"
+                    android:id="@+id/NO"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" NO "
+                    android:textSize="18sp"/>
+            </RadioGroup>
+
+            <TextView
+                android:padding="4dp"
+                android:textSize="15dp"
+                android:layout_marginTop="10dp"
+                android:background="#D3D3D3"
+                android:text=" NAME OF OWNER"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <EditText
+                android:id="@+id/owner_of_pg"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:padding="4dp"
+                android:textSize="15dp"
+                android:layout_marginTop="10dp"
+                android:inputType="number"
+                android:background="#D3D3D3"
+                android:text=" OWNER CONTACT NO"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <EditText
+                android:id="@+id/numof_pg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <LinearLayout
+                android:padding="25dp"
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <Button
+                    android:id="@+id/upload_pg_pic"
+                    android:background="@drawable/buttonshape"
+                    android:text="UPLOAD PHOTO"
+                    android:layout_weight="2"
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content" />
+                <Button
+                    android:id="@+id/submit_pg"
+                    android:layout_marginLeft="25dp"
+                    android:layout_width="180dp"
+                    android:layout_weight="2"
+                    android:background="@drawable/buttonshape"
+                    android:text="Submit "
+
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>
+
+
+

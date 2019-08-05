@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.apple.prop.Vendorhome_open">
+    <TextView
+        android:paddingTop="10dp"
+        android:textColor="@color/colorPrimary"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:text="Fill the details"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:padding="10dp"
+                android:id="@+id/image_of_flat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:padding="4dp"
+                android:textSize="15dp"
+                android:layout_marginTop="10dp"
+                android:background="#D3D3D3"
+                android:text=" NAME OF HOME"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <EditText
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:padding="4dp"
+                android:textSize="15dp"
+                android:background="#D3D3D3"
+                android:text=" NO. OF ROOMS"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <EditText
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+
+            <TextView
+                android:padding="4dp"
+                android:textSize="15dp"
+                android:background="#D3D3D3"
+                android:text=" AREA"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <EditText
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:padding="4dp"
+                android:textSize="15dp"
+                android:background="#D3D3D3"
+                android:text=" LOCATION"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <EditText
+                android:drawableEnd="@drawable/icon"
+                android:drawableRight="@drawable/icon"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:padding="4dp"
+                android:textSize="15dp"
+                android:background="#D3D3D3"
+                android:text=" NEARBY AREAS"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:padding="4dp"
+                android:textSize="15dp"
+                android:background="#D3D3D3"
+                android:text="  NO. OF BATHROOMS"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <RadioGroup
+                android:layout_margin="10dp"
+                android:id="@+id/radioGroup"
+                android:layout_marginLeft="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <RadioButton
+                    android:layout_marginLeft="10sp"
+                    android:id="@+id/radioButton0"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" 1 "
+                    android:textSize="18sp"/>
+
+                <RadioButton
+                    android:layout_marginLeft="15dp"
+                    android:id="@+id/radioButton1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" 2 "
+                    android:textSize="18sp"/>
+
+                <RadioButton
+                    android:layout_marginLeft="15dp"
+                    android:id="@+id/radioButton2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" 3"
+                    android:textSize="18sp"/>
+
+                <RadioButton
+                    android:layout_marginLeft="15dp"
+                    android:id="@+id/radioButton3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" 4"
+                    android:textSize="18sp"/>
+                <RadioButton
+                    android:layout_marginLeft="15dp"
+                    android:id="@+id/radioButton4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" 5 "
+                    android:textSize="18sp"/>
+            </RadioGroup>
+
+            <TextView
+                android:padding="4dp"
+                android:textSize="15dp"
+                android:background="#D3D3D3"
+                android:text="  PRICE"
+                android:inputType="number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+
+            <TextView
+                android:padding="4dp"
+                android:textSize="15dp"
+                android:background="#D3D3D3"
+                android:text=" FACILITIES"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:padding="4dp"
+                android:textSize="15dp"
+                android:background="#D3D3D3"
+                android:text=" FURNISHED "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <RadioGroup
+                android:layout_margin="10dp"
+                android:id="@+id/radioGroup2"
+                android:layout_marginLeft="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <RadioButton
+                    android:id="@+id/YES"
+                    android:layout_marginLeft="20dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" YES "
+                    android:textSize="18sp"/>
+
+                <RadioButton
+                    android:layout_marginLeft="65dp"
+                    android:id="@+id/NO"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" NO "
+                    android:textSize="18sp"/>
+            </RadioGroup>
+
+            <TextView
+                android:padding="4dp"
+                android:textSize="15dp"
+                android:layout_marginTop="10dp"
+                android:background="#D3D3D3"
+                android:text=" NAME OF OWNER"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <EditText
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:padding="4dp"
+                android:textSize="15dp"
+                android:layout_marginTop="10dp"
+                android:inputType="number"
+                android:background="#D3D3D3"
+                android:text=" OWNER CONTACT NO"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <EditText
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <LinearLayout
+                android:padding="25dp"
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <Button
+                    android:background="@drawable/buttonshape"
+                    android:text="UPLOAD PHOTO"
+                    android:layout_weight="2"
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content" />
+                <Button
+                    android:layout_marginLeft="25dp"
+                    android:layout_width="180dp"
+                    android:layout_weight="2"
+                    android:background="@drawable/buttonshape"
+                    android:text="Submit "
+
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>
+
+

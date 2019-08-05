@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.apple.prop.Vendor_showrrom_details">
+
+    <TextView
+        android:paddingTop="10dp"
+        android:textColor="@color/colorPrimary"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:text="Fill the details"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:padding="10dp"
+                android:id="@+id/image_of_showroom"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:padding="4dp"
+                android:textSize="15dp"
+                android:background="#D3D3D3"
+                android:text=" AREA"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <EditText
+                android:id="@+id/Area_of_showroom"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:padding="4dp"
+                android:textSize="15dp"
+                android:background="#D3D3D3"
+                android:text=" LOCATION"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+            <EditText
+                android:id="@+id/location_of_showroom"
+               android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+                <ImageView
+                    android:id="@+id/loc_of_show"
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/ic_my_location_black_24dp" />
+            </RelativeLayout>
+
+            <TextView
+                android:padding="4dp"
+                android:textSize="15dp"
+                android:background="#D3D3D3"
+                android:text="  PRICE"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <EditText
+                android:id="@+id/price_of_showroom"
+                android:inputType="number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+
+            <TextView
+                android:padding="4dp"
+                android:textSize="15dp"
+                android:background="#D3D3D3"
+                android:text=" Painted "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <RadioGroup
+                android:layout_margin="10dp"
+                android:id="@+id/radioGroup2"
+                android:layout_marginLeft="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <RadioButton
+                    android:id="@+id/YES"
+                    android:layout_marginLeft="20dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" YES "
+                    android:textSize="18sp"/>
+
+                <RadioButton
+                    android:layout_marginLeft="65dp"
+                    android:id="@+id/NO"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" NO "
+                    android:textSize="18sp"/>
+            </RadioGroup>
+
+            <TextView
+                android:padding="4dp"
+                android:textSize="15dp"
+                android:layout_marginTop="10dp"
+                android:background="#D3D3D3"
+                android:text=" NAME OF OWNER"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <EditText
+               android:id="@+id/name_of_owner_of_showroom"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:padding="4dp"
+                android:textSize="15dp"
+                android:layout_marginTop="10dp"
+                android:inputType="number"
+                android:background="#D3D3D3"
+                android:text=" OWNER CONTACT NO"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <EditText
+                android:inputType="number"
+                 android:id="@+id/show_contact_no"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal"
+                android:padding="25dp">
+
+                <Button
+                    android:id="@+id/showroom_pic_upload"
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:background="@drawable/buttonshape"
+                    android:text="UPLOAD PHOTO" />
+
+                <Button
+                    android:id="@+id/submit_of_showroom"
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="25dp"
+                    android:layout_weight="2"
+                    android:background="@drawable/buttonshape"
+
+                    android:text="Submit " />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>
+
+
+
+
+

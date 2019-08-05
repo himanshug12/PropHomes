@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="com.example.apple.prop.Vendor_godown_details">
+
+    <TextView
+        android:paddingTop="10dp"
+        android:textColor="@color/colorPrimary"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:text="Fill the details"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:padding="10dp"
+                android:id="@+id/image_of_GODOWN"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+
+            <TextView
+                android:padding="4dp"
+                android:textSize="15dp"
+                android:background="#D3D3D3"
+                android:text=" AREA"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <EditText
+                android:id="@+id/GODOWN_AREA"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:padding="4dp"
+                android:textSize="15dp"
+                android:background="#D3D3D3"
+                android:text=" LOCATION"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <EditText
+                android:id="@+id/location_of_godown"
+                android:drawableEnd="@drawable/icon"
+                android:drawableRight="@drawable/icon"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+
+                android:padding="4dp"
+                android:textSize="15dp"
+                android:background="#D3D3D3"
+                android:text="  SIZE"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <EditText
+                android:id="@+id/size_of_godown"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:padding="4dp"
+                android:textSize="15dp"
+                android:background="#D3D3D3"
+                android:text="  PRICE"
+                android:inputType="number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <EditText
+                android:id="@+id/price_of_godown"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+
+
+
+            <TextView
+                android:padding="4dp"
+                android:textSize="15dp"
+                android:layout_marginTop="10dp"
+                android:background="#D3D3D3"
+                android:text=" NAME OF OWNER"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <EditText
+                android:id="@+id/owner_of_godown"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:padding="4dp"
+                android:textSize="15dp"
+                android:layout_marginTop="10dp"
+                android:inputType="number"
+                android:background="#D3D3D3"
+                android:text=" OWNER CONTACT NO"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <EditText
+                android:id="@+id/number_of_godown"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <LinearLayout
+                android:padding="25dp"
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <Button
+                    android:id="@+id/upload_godown"
+                    android:background="@drawable/buttonshape"
+                    android:text="UPLOAD PHOTO"
+                    android:layout_weight="2"
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content" />
+                <Button
+                    android:id="@+id/submit_godown"
+                    android:layout_marginLeft="25dp"
+                    android:layout_width="180dp"
+                    android:layout_weight="2"
+                    android:background="@drawable/buttonshape"
+                    android:text="Submit "
+
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>
+
+
+
+
